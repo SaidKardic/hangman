@@ -2,7 +2,9 @@ import random
 
 class Hangman:
     def __init__(self):
+        """Variables to be used for the methods are assigned under init constructor."""
         self.possible_words=['becode', 'learning', 'mathematics', 'sessions']
+        #In order to be able to replace guessed letters, the word is cpnverted into a list each element being a letter.
         self.word_to_find= list(random.choice(self.possible_words))
         self.lives=5
         self.correctly_guessed_letters=(len(self.word_to_find)*["_"])
