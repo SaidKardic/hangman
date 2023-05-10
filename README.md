@@ -16,7 +16,7 @@ Once you have installed Python, clone the repository to your local machine:
 # Usage
 To play the game, open the terminal, navigate to the project directory, and run the following command:
 
-`$ python main.py`
+`$ python3 main.py`
 
 The game will start, and you will be prompted to enter your first letter guess. 
 Enter one letter at a time, and press enter to submit your guess. If the letter is in the word to find, 
